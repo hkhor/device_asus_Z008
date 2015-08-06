@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEVICE=Z008
+DEVICE=z008
 VENDOR=asus
 
 ./../mofd-common/setup-makefiles.sh $@

@@ -2,6 +2,6 @@
 
 #set -e
 
-export DEVICE=Z008
+export DEVICE=z008
 export VENDOR=asus
 ./../mofd-common/extract-files.sh $@

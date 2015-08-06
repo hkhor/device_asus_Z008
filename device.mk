@@ -27,9 +27,9 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-2048-dalvi
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 DEVICE_PACKAGE_OVERLAYS := \
-    device/asus/Z008/overlay
+    device/asus/z008/overlay
 
-$(call inherit-product-if-exists, vendor/asus/Z008/Z008-vendor.mk)
+$(call inherit-product-if-exists, vendor/asus/z008/z008-vendor.mk)
 
 # Inherit from mofd-common
 $(call inherit-product, device/asus/mofd-common/mofd.mk)
