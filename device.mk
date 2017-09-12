@@ -30,6 +30,9 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui
 PRODUCT_COPY_FILES += \
     device/asus/Z008/keys/boot_z008.sig:install/bin/boot.sig
 
+#Prebuilt kernel
+TARGET_PREBUILT_KERNEL:= device/asus/Z008/kernel
+
 DEVICE_PACKAGE_OVERLAYS := \
     device/asus/Z008/overlay
 
